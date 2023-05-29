@@ -2,7 +2,6 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    color: black;
 }
 
 body {
@@ -114,4 +113,52 @@ header nav {
     border-radius: 12px;
     margin-bottom: 12px;
 
+}
+
+.quote-sec {
+    padding: 72px;
+    margin: 24px 0px;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 200;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+}
+
+figure figcaption {
+    align-self: flex-end;
+    color: black;
+}
+
+.action-sec {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #3882f6;
+    color: white;
+    padding: 48px 0px;
+    margin: 96px;
+    border-radius: 6px;
+}
+
+.action-sec button {
+    background-color: #3882f6;
+    color: white;
+    padding: 12px 48px;
+    border: 1px solid white;
+    border-radius: 12px;
+}
+
+.action-sec p {
+    font-weight: lighter;
+}
+
+footer {
+    text-align: center;
+    background-color: #1f2937;
+    padding: 32px;
+    color: white;
 }
